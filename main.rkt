@@ -97,7 +97,8 @@
                                    tree
                                    (maximumg right))))))))
         (maximum (search-tree-tree search-tree))))))
-                                   
+
+#|
 ;; nice explanation of deletion of binary search tree
 ;; https://www.youtube.com/watch?v=gcULXE7ViZw
 (define search-tree-delete
@@ -118,7 +119,7 @@
                                      (node-right-branch left))
                                     (else
                                      (make-node (node-label (search-tree-minimum 
-                                  
+|#                                
                           
           
 
